@@ -1,0 +1,13 @@
+[package]
+name = "apd"
+version = "0.1.0"
+authors = ["Jok <easytojoin@163.com>"]
+edition = "2021"
+description = "Asnyc program demos"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "thread"
+path = "thread.rs"
