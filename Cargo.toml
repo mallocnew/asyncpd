@@ -11,3 +11,10 @@ description = "Asnyc program demos"
 [[bin]]
 name = "thread"
 path = "thread.rs"
+
+[[bin]]
+name = "server"
+path = "server.rs"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
