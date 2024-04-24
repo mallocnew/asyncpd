@@ -1,5 +1,6 @@
 // Copyright 2024 GOTHAM Inc. All Rights Reserved.
 // Author: easytojoin@163.com (jok)
+
 use std::{
     sync::{mpsc, Arc, Mutex},
     thread,

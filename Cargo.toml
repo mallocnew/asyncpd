@@ -16,5 +16,9 @@ path = "thread.rs"
 name = "server"
 path = "server.rs"
 
+[[bin]]
+name = "atomic"
+path = "atomic.rs"
+
 [dependencies]
 tokio = { version = "1.37.0", features = ["full"] }
